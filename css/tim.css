@@ -352,6 +352,7 @@ template {
 
 body {
  background-color: #151C26;
+ font-family: 'Quattrocento', serif;
 }
 @media screen and (max-width: 767px){
 .lock {
@@ -363,7 +364,6 @@ body {
 #h1, #Introduction {
  text-align: center;
  color: white;
- font-family: 'Quattrocento', serif;
 }
 .sidenav {
  height: 100%;
@@ -398,17 +398,14 @@ body {
  color: white;
  border-top: 3px dotted white;
  padding-bottom: 40px;
- font-family: 'Quattrocento', serif;
 }
 #footer{
  border-top: 2px dotted white;
  color: white;
- font-family: 'Quattrocento', serif;
 }
 #resumepdf{
  padding-bottom: 50px;
  text-align: center;
- font-family: 'Quattrocento', serif;
  font-size: 300%;
 }
 #under, #under1, #under2, #under3{
@@ -433,13 +430,11 @@ body {
 #h1, #Introduction {
  text-align: center;
  color: white;
- font-family: 'Quattrocento', serif;
 }
 #Goals{
  color: white;
  border-top: 3px dotted white;
  padding-bottom: 40px;
- font-family: 'Quattrocento', serif;
 }
 #left {
  float: left;
@@ -456,7 +451,6 @@ body {
 #footer{
  color: white;
  text-align: center;
- font-family: 'Quattrocento', serif;
 }
 #under, #under1, #under2, #under3{
  text-decoration: underline;
@@ -498,7 +492,6 @@ body {
 #resumepdf{
  padding-bottom: 50px;
  text-align: center;
- font-family: 'Quattrocento', serif;
  font-size: 300%;
 }
 }
