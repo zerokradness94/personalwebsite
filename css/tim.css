@@ -353,13 +353,13 @@ template {
 body {
  background-color: #151C26;
 }
+@media screen and (max-width: 767px){
 .lock {
  text-align: center;
 }
 .lock img {
  width: 50%;
 }
-@media screen and (max-width: 767px){
 #h1, #Introduction {
  text-align: center;
  color: white;
@@ -374,7 +374,7 @@ body {
  left: 0;
  background-color: #111;
  overflow-x: hidden;
- padding-top: 15px;;
+ padding-top: 15px;
 }
 .sidenav a {
  padding: 6px 8px 6px 16px;
@@ -388,7 +388,7 @@ body {
 }
 #content{
  margin-left:100px;
- margin-top:10%;
+ margin-top:5%;
 }
 .sidenav .current {
  background-color: #004BA6;
@@ -411,4 +411,114 @@ body {
  font-family: 'Quattrocento', serif;
  font-size: 300%;
 }
+#under, #under1, #under2, #under3{
+ text-decoration: underline;
+}
+#minimessage {
+ color: white;
+ font-size: 40%;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+.lock {
+ text-align: center;
+}
+.lock img {
+ width: 20%;
+}
+#h1 {
+ font-size: 250%;
+}
+#h1, #Introduction {
+ text-align: center;
+ color: white;
+ font-family: 'Quattrocento', serif;
+}
+#Goals{
+ color: white;
+ border-top: 3px dotted white;
+ padding-bottom: 40px;
+ font-family: 'Quattrocento', serif;
+}
+#left {
+ float: left;
+ width: 45%;
+ border-right: 3px solid white;
+ padding-bottom: 35px;
+}
+#right {
+ float: left;
+ width: 50%;
+ padding-left: 20px;
+ padding-bottom: 50px;
+}
+#footer{
+ color: white;
+ text-align: center;
+ font-family: 'Quattrocento', serif;
+}
+#under, #under1, #under2, #under3{
+ text-decoration: underline;
+}
+#content{
+ margin-left:160px;
+ margin-top:5%;
+}
+.sidenav {
+ height: 100%;
+ width: 150px;
+ position: fixed;
+ z-index: 1;
+ top: 0;
+ left: 0;
+ background-color: #111;
+ overflow-x: hidden;
+ padding-top: 15px;
+}
+.sidenav a {
+ padding: 6px 8px 6px 16px;
+ text-decoration: none;
+ font-size: 18px;
+ color: #4983DB;
+ display: block;
+ font-size: 150%;
+}
+.sidenav a:hover {
+ color: white;
+}
+.sidenav .current {
+ background-color: #004BA6;
+ color: white;
+}
+#minimessage {
+ color: white;
+ font-size: 40%;
+}
+#resumepdf{
+ padding-bottom: 50px;
+ text-align: center;
+ font-family: 'Quattrocento', serif;
+ font-size: 300%;
+}
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+.lock {
+ text-align: center;
+}
+.lock img {
+ width: 20%;
+}
+	
+}
+
+@media screen and (min-width: 1281px) {
+.lock {
+ text-align: center;
+}
+.lock img {
+ width: 15%;
+}
+	
 }
