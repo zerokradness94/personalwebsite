@@ -354,6 +354,12 @@ body {
  background-color: #151C26;
  font-family: 'Quattrocento', serif;
 }
+#center{
+ text-align: center;
+ padding-top: 15px;
+ padding-bottom: 30px;
+}
+
 @media screen and (max-width: 767px){
 .lock {
  text-align: center;
@@ -414,6 +420,11 @@ body {
 #minimessage {
  color: white;
  font-size: 40%;
+}
+#contactlinks, #emailme{
+ text-align: center;
+ color: white;
+ padding-top: 15px;
 }
 }
 
@@ -493,6 +504,11 @@ body {
  padding-bottom: 50px;
  text-align: center;
  font-size: 300%;
+}
+#contactlinks, #emailme {
+ text-align: center;
+ color: white;
+ padding-top: 15px;
 }
 }
 
