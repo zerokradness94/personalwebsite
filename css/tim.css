@@ -365,15 +365,18 @@ body {
  text-align: center;
 }
 .lock img {
- width: 50%;
+ width: 20%;
 }
 #h1, #Introduction {
  text-align: center;
  color: white;
 }
+#h1 {
+ font-size: 250%;
+}
 .sidenav {
  height: 100%;
- width: 100px;
+ width: 150px;
  position: fixed;
  z-index: 1;
  top: 0;
@@ -390,7 +393,7 @@ body {
 .sidenav a {
  padding: 6px 8px 6px 16px;
  text-decoration: none;
- font-size: 18px;
+ font-size: 25px;
  color: #4983DB;
  display: block;
 }
@@ -398,7 +401,7 @@ body {
  color: white;
 }
 #content{
- margin-left:100px;
+ margin-left:160px;
  margin-top:5%;
 }
 .sidenav .current {
