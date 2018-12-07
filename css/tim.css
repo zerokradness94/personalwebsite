@@ -382,6 +382,11 @@ body {
  overflow-x: hidden;
  padding-top: 15px;
 }
+.sidenav ul {
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+}
 .sidenav a {
  padding: 6px 8px 6px 16px;
  text-decoration: none;
@@ -481,6 +486,11 @@ body {
  overflow-x: hidden;
  padding-top: 15px;
 }
+.sidenav ul {
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+}
 .sidenav a {
  padding: 6px 8px 6px 16px;
  text-decoration: none;
@@ -512,22 +522,98 @@ body {
 }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
+@media screen and (min-width: 1025px){
 .lock {
  text-align: center;
 }
 .lock img {
  width: 20%;
 }
-	
+.sidenav {
+ background-color: #111;
+ text-align:center;
+ width: 100%;
+ height: 52px;
+ position: fixed;
+ z-index: 1;
+ top: 0;
+ left: 0;
 }
-
-@media screen and (min-width: 1281px) {
-.lock {
+.sidenav ul {
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+}
+.sidenav ul li {
+ display: inline-block;
+ padding-right: 50px;
+}
+.sidenav ul li a{
+ color: #4983DB;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 175%;
+ padding: 10px 10px;
+}
+.sidenav a:hover {
+ color: white;
+}
+.sidenav .current {
+ background-color: #004BA6;
+ color: white;
+}
+#content{
+ margin-top: 70px;
+}
+#h1 {
+ font-size: 250%;
+}
+#h1, #Introduction {
+ text-align: center;
+ color: white;
+}
+#Introduction {
+ overflow:hidden;
+ width: 65%;
+ margin: 0 auto;
+}
+#Goals{
+ color: white;
+ border-top: 3px dotted white;
+ padding-bottom: 40px;
+ padding-left: 20%;
+}
+#left {
+ float: left;
+ width: 45%;
+ border-right: 3px solid white;
+ padding-bottom: 35px;
+}
+#right {
+ float: left;
+ width: 50%;
+ padding-left: 20px;
+ padding-bottom: 50px;
+}
+#footer{
+ color: white;
  text-align: center;
 }
-.lock img {
- width: 15%;
+#under, #under1, #under2, #under3{
+ text-decoration: underline;
 }
-	
+#minimessage {
+ color: white;
+ font-size: 40%;
+}
+#resumepdf{
+ padding-bottom: 50px;
+ text-align: center;
+ font-size: 300%;
+}
+#contactlinks, #emailme {
+ text-align: center;
+ color: white;
+ padding-top: 15px;
+}
 }
