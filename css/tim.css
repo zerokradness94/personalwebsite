@@ -372,6 +372,7 @@ body {
 }
 .nbody img {
  width: 100%;
+ height: 100%;
 }
 #h1, #Introduction {
  text-align: center;
@@ -507,9 +508,6 @@ body {
 }
 .nbody {
  text-align: center;
-}
-.nbody img {
- width: 50%;
 }
 .sidenav {
  background-color: #111;
