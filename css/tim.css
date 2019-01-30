@@ -433,6 +433,7 @@ body {
  text-align: center;
  font-size: 200%;
  list-style-type: none;
+ padding-left: 55%;
 }
 #peedeeF li{
  margin-top: 25px;
@@ -467,6 +468,9 @@ body {
 }
 #options a:hover {
   background-color: #ccc;
+}
+.presentationForensecure {
+ padding-left: 8%;
 }
 }
 
