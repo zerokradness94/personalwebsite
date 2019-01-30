@@ -367,7 +367,10 @@ body {
 .lock img {
  width: 23%;
 }
-.gifytime img {
+#gifytime {
+ text-align: center;
+}
+#gifytime img {
  width: 100%;
  height: 100%;
 }
@@ -503,8 +506,11 @@ body {
 .lock img {
  width: 15%;
 }
-.gifytime {
+#gifytime {
  text-align: center;
+}
+#gifytime img {
+ width: 50%;
 }
 .sidenav {
  background-color: #111;
