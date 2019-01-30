@@ -423,10 +423,22 @@ body {
  color: white;
  text-align: center;
 }
-#resumepdf{
+#resumepdf {
  padding-bottom: 50px;
  text-align: center;
  font-size: 300%;
+}
+#peedeeF {
+ padding-bottom: 20px;
+ text-align: center;
+ font-size: 200%;
+ list-style-type: none;
+}
+#peedeeF li{
+ margin-top: 25px;
+}
+#peedeeF li:first-child {
+ margin-top:0;
 }
 #under, #under1, #under2, #under3{
  text-decoration: underline;
@@ -545,10 +557,22 @@ body {
  color: white;
  font-size: 45%;
 }
-#resumepdf{
+#resumepdf {
  padding-bottom: 50px;
  text-align: center;
  font-size: 400%;
+}
+#peedeeF {
+ padding-bottom: 20px;
+ text-align: center;
+ font-size: 300%;
+ list-style-type: none;
+}
+#peedeeF li{
+ margin-top: 25px;
+}
+#peedeeF li:first-child {
+ margin-top:0;
 }
 #contactlinks, #emailme {
  text-align: center;
