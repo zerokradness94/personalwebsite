@@ -367,6 +367,12 @@ body {
 .lock img {
  width: 23%;
 }
+.nbody {
+ text-align: center;
+}
+.nbody img {
+ width: 100%;
+}
 #h1, #Introduction {
  text-align: center;
  color: white;
@@ -498,6 +504,12 @@ body {
 }
 .lock img {
  width: 15%;
+}
+.nbody {
+ text-align: center;
+}
+.nbody img {
+ width: 50%;
 }
 .sidenav {
  background-color: #111;
