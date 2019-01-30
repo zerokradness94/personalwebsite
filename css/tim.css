@@ -423,6 +423,12 @@ body {
  color: white;
  text-align: center;
 }
+#footer2{
+ border-top: 2px dotted white;
+ color: white;
+ text-align: center;
+ padding-left: 55%;
+}
 #resumepdf {
  padding-bottom: 50px;
  text-align: center;
@@ -609,5 +615,11 @@ body {
 }
 #options a:hover {
   background-color: #ccc;
+}
+#footer2{
+ border-top: 2px dotted white;
+ color: white;
+ text-align: center;
+ padding-top: 3%;
 }
 }
