@@ -406,6 +406,7 @@ body {
 #content{
  margin-left:27%;
  margin-top:5%;
+ margin-right:2%
 }
 .sidenav .current {
  background-color: #004BA6;
@@ -420,6 +421,7 @@ body {
 #footer{
  border-top: 2px dotted white;
  color: white;
+ text-align: center;
 }
 #resumepdf{
  padding-bottom: 50px;
@@ -442,8 +444,8 @@ body {
  width: 100%;
  text-align: center;
  font-size: 200%;
+ padding-right: 3%;
 }
-
 #options a {
   background-color: #eee; 
   color: #111;
@@ -564,7 +566,6 @@ body {
  text-align: center;
  font-size: 200%;
 }
-
 #options a {
   background-color: #eee; 
   color: #111;
