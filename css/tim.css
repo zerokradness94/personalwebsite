@@ -484,6 +484,11 @@ body {
 .presentationForensecure {
  padding-left: 8%;
 }
+#minimessage2 {
+ color: white;
+ font-size: 300%;
+ text-align: center;
+}
 }
 
 
@@ -621,5 +626,10 @@ body {
  color: white;
  text-align: center;
  padding-top: 3%;
+}
+#minimessage2 {
+ color: white;
+ font-size: 400%;
+ text-align: center;
 }
 }
