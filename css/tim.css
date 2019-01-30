@@ -438,6 +438,22 @@ body {
  color: white;
  padding-top: 15px;
 }
+#options {
+ width: 100%;
+ text-align: center;
+ font-size: 200%;
+}
+
+#options a {
+  background-color: #eee; 
+  color: #111;
+  display: block; 
+  padding: 15px;
+  text-decoration: none;
+}
+#options a:hover {
+  background-color: #ccc;
+}
 }
 
 
@@ -542,5 +558,21 @@ body {
 }
 #emailme {
  font-size: 150%;
+}
+#options {
+ width: 100%;
+ text-align: center;
+ font-size: 200%;
+}
+
+#options a {
+  background-color: #eee; 
+  color: #111;
+  display: block; 
+  padding: 15px;
+  text-decoration: none;
+}
+#options a:hover {
+  background-color: #ccc;
 }
 }
