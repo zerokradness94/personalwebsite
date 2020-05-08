@@ -584,9 +584,9 @@ body {
  text-align: center;
 }
 #footer3{
- color: white;
- text-align: center;
- padding-top:100px;
+  color: white;
+  text-align: center;
+  padding-top: 3%;
 }
 #under, #under1, #under2, #under3{
  text-decoration: underline;
