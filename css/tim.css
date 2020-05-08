@@ -582,7 +582,11 @@ body {
 #footer{
  color: white;
  text-align: center;
- padding-top: 30px;
+}
+#footer3{
+ color: white;
+ text-align: center;
+ padding-top:100px;
 }
 #under, #under1, #under2, #under3{
  text-decoration: underline;
