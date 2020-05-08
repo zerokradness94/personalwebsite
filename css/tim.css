@@ -381,7 +381,7 @@ body {
  font-size: 350%;
 }
 #Introduction {
- font-size: 250%	
+ font-size: 250%
 }
 .sidenav {
  height: 100%;
@@ -478,9 +478,9 @@ body {
  padding-right: 3%;
 }
 #options a {
-  background-color: #eee; 
+  background-color: #eee;
   color: #111;
-  display: block; 
+  display: block;
   padding: 15px;
   text-decoration: none;
 }
@@ -624,9 +624,9 @@ body {
  font-size: 200%;
 }
 #options a {
-  background-color: #eee; 
+  background-color: #eee;
   color: #111;
-  display: block; 
+  display: block;
   padding: 15px;
   text-decoration: none;
 }
